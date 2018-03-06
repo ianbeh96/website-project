@@ -1,0 +1,47 @@
+body {
+  background-color: #080000;
+}
+
+div {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+div.footer {
+  padding-bottom: 0px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 90%;
+}
+
+label, input{
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  width: 20%;
+}
+
+label + input {
+  font-size: 1vw;
+  width: 30%;
+  margin: auto;
+}
+
+input {
+  font-size: 1vw;
+}

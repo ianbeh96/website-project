@@ -1,0 +1,1 @@
+{"Monday":[{"eventname":"CSCI 4131","starttime":"1:00 pm","endtime":"2:15 pm","location":"Fraser Hall"},{"eventname":"CSCI 5801","starttime":"2:30 pm","endtime":"3:45 pm","location":"Keller Hall"}],"Tuesday":[{"eventname":"asdasd","starttime":"01:08","endtime":"06:09","location":"aasa"}]}

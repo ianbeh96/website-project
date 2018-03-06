@@ -1,0 +1,189 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080000;
+}
+
+div.header, div.footer {
+  background-color: #ffffff;
+  height: auto;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+div.header, div.footer{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+div.welcome {
+  text-align: left;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  font-size: 1vw;
+}
+
+nav {
+  width: 100%;
+  font-size: 1vw;
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+a.link1 {
+  padding-right: 25px;
+}
+
+a.link2 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a.link3 {
+  padding-left: 25px;
+}
+
+a.link1:hover, a.link2:hover, a.link3:hover {
+  color: #11bcde;
+}
+
+div.table {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  width: auto;
+  border: 1px solid black;
+}
+
+td {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+tr.r1, tr.r3, tr.r5 {
+  background-color: #cccccc;
+}
+
+tr.r2, tr.r4 {
+  background-color: #8c8c8c;
+}
+
+table.center {
+  width: 100%;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+span {
+  font-style: normal;
+  font-size: 1vw;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+p {
+  white-space: nowrap;
+}
+
+p.time {
+  font-style: italic;
+}
+
+p.time, p.location {
+  font-size: 1vw;
+}
+
+div.image {
+  width: auto;
+  height: auto;
+}
+
+img.building {
+  width: 100px;
+  height: 80px;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0;
+}
+
+p.location:hover + img.building {
+  opacity: 1;
+}
+
+div.myform {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  background-color: #ffffff;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+label, input, button {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+label {
+  font-size: 1vw;
+}
+
+button {
+  font-size: 1vw;
+}
+
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 90%;
+  overflow: hidden;
+}
+
+#map {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 60%;
+}
+
+#panel {
+  background-color: #ffffff;
+  overflow: scroll;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 40%;
+  opacity: 0.8;
+}
+
+p.msg {
+  color: #ffffff;
+}

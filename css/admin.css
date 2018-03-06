@@ -1,0 +1,115 @@
+body {
+  background-color: #080000;
+}
+
+div {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+div.welcome {
+  width: 98%;
+  text-align: left;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 1vw;
+}
+
+nav {
+  width: 100%;
+  font-size: 1.5vw;
+  background-color: #f2f2f2;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1vw;
+}
+
+a.link1 {
+  padding-right: 25px;
+}
+
+a.link2 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a.link3 {
+  padding-left: 25px;
+}
+
+a.link1:hover, a.link2:hover, a.link3:hover {
+  color: #11bcde;
+}
+
+div.usertable {
+  padding-bottom: 30px;
+}
+
+div.footer {
+  padding-bottom: 20px;
+}
+
+div.gap {
+  width: 100%;
+  border-bottom: 3px solid #080000;
+}
+
+#users {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;;
+  margin-right: auto;
+}
+
+table, th, td {
+  width: auto;
+  font-size: 1.2vw;
+  border: 1px solid black;
+}
+
+form.adduser {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+  width: 90%;
+}
+
+
+label, input {
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+label + input {
+  font-size: 1vw;
+  width: 40%;
+  margin: auto;
+}
+
+label {
+  font-size: 1.2vw;
+  width: 20%;
+}
+
+input.new{
+  font-size: 1.2vw;
+}
+
+input:not(.logout):not(.new){
+  width: 70%;
+}
+
+p.end {
+  text-align: center;
+}

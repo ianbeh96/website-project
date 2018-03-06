@@ -1,0 +1,79 @@
+body {
+  background-color: #080000;
+}
+
+div {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+div.welcome {
+  width: 98%;
+  text-align: left;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  font-size: 1vw;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+a.link1 {
+  padding-right: 25px;
+}
+
+a.link2 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a.link3 {
+  padding-left: 25px;
+}
+
+a.link1:hover, a.link2:hover, a.link3:hover {
+  color: #11bcde;
+}
+
+form.myform {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 90%;
+}
+
+
+label, input, select {
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  width: 30%;
+}
+
+label + input, label + select {
+  font-size: 1vw;
+  width: 30%;
+  margin: auto;
+}
+
+p.end {
+  text-align: center;
+}
